@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Home | All-News</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Navbar -->
+        <header>
+            <!-- header -->
+            <div class="top-bar bg-dark p-2 mb-3">
+                <div class="d-flex align-items-center justify-content-around">
+                    <a href="" class="px-2 text-white time">
+                        10pm
+                    </a>
+                    <div class="d-flex">
+                        <a href="" class="px-2 text-white">Home</a>
+                        <a href="" class="px-2 text-white">About</a>
+                        <a href="" class="px-2 text-white">Contact</a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="" class="px-2 text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="" class="px-2 text-white"><i class="fab fa-youtube"></i></a>
+                        <a href="" class="px-2 text-white"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--logo  & add here-->
+            <div class="container mb-3">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="col-lg-4">
+                        <a href="/index.html">
+                            <img src="images/logo.png" alt="company logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-8">
+                        <a href="/details.html">
+                            <img src="images/add.png" class="img-fluid" alt="advertisement for deep fried Twinkies">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--navbar-->
+            <div class="nav-bottom">
+                <nav class="navbar navbar-expand-lg navbar-expand-md  p-1" id="nav-bottom">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav" id="category">
+                            <li class="nav-item dropdown px-3">
+                                <a class="nav-link dropdown-toggle text-white" href="" id="tech-menu" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">বাংলাদেশ</a>
+                                <ul class="dropdown-menu" aria-labelledby="tech-menu">
+                                    <li class="nav-item">
+                                        <a class=" nav-link text-dark dropdown-item" href="">সারাবাংলা</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" nav-link text-dark dropdown-item" href="">জাতীয়</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" nav-link text-dark dropdown-item" href="">শিক্ষা</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link text-white" href="">সারাবাংলা</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link text-white" href="">খেলা</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link text-white" href="">বিনোদন
+                                </a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link text-white" href="">বাণিজ্য</a>
+                            </li>
+                        </ul>
+                        <div id="mobail-search">
+                            <ul class="navbar-nav">
+                                <div class="search">
+                                    <form action="">
+                                        <div class="d-flex">
+                                            <input type="text" class="form-control" id="search-input">
+                                            <button type="button" class="btn btn-danger" id="search-button"><i
+                                                    class="fas fa-search"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </ul>
+                            <!-- Offcanvas toggle button -->
+                            <button class="navbar-toggler bg-dark border-none p-1" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                                aria-controls="offcanvasNavbar">
+                                <span class="text-white">Menu</span>
+                            </button>
+                        </div>
+                        <!-- Offcanvas menu -->
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                    <a href="/details.html">
+                                        <img src="images/logo.png" alt="">
+                                    </a>
+                                </h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body" style="background-color:#167596">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown px-3">
+                                        <a class="nav-link dropdown-toggle text-white" href="" id="tech-menu"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">বাংলাদেশ</a>
+                                        <ul class="dropdown-menu" aria-labelledby="tech-menu">
+                                            <li class="nav-item">
+                                                <a class=" nav-link text-dark dropdown-item" href="">সারাবাংলা</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class=" nav-link text-dark dropdown-item" href="">জাতীয়</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class=" nav-link text-dark dropdown-item" href="">শিক্ষা</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <a class="nav-link text-white" href="">সারাবাংলা</a>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <a class="nav-link text-white" href="">খেলা</a>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <a class="nav-link text-white" href="">বিনোদন
+                                        </a>
+                                    </li>
+                                    <li class="nav-item px-3">
+                                        <a class="nav-link text-white" href="">বাণিজ্য</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="news-details">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
+                        <img src="images/p2.webp" alt="" class="img-fluid" style="max-width:100%">
+                        <p class="image-description mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nobis labore nostrum incidunt
+                            molestiae! Sed commodi quae adipisci consequatur iure, alias maxime, maiores totam placeat quo,
+                            consectetur ea necessitatibus esse?
+    
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rerum, eligendi numquam eum
+                            deleniti facilis sapiente. Velit perspiciatis exercitationem nisi blanditiis, eius odit, enim
+                            cumque, dignissimos a architecto recusandae sint!
+    
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nobis labore nostrum incidunt
+                            molestiae! Sed commodi quae adipisci consequatur iure, alias maxime, maiores totam placeat quo,
+                            consectetur ea necessitatibus esse?
+    
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rerum, eligendi numquam eum
+                            deleniti facilis sapiente. Velit perspiciatis exercitationem nisi blanditiis, eius odit, enim
+                            cumque, dignissimos a architecto recusandae sint!
+                        </p>
+    
+                        <h4>Post By - Masud Rana</h4>
+                        <span>Share on->>
+                            <div class="d-flex align-items-center">
+                                <a href="" class="p-2">
+                                    <i class="fab fa-facebook" style="font-size:22px"></i>
+                                </a>
+                                <a href="" class="p-2">
+                                    <i class="fab fa-twitter" style="font-size:22px"></i>
+                                </a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-10 mt-5">
+                    <h4 style="text-transform:uppercase" class="bg-danger p-2 text-white">latest news</h4>
+                    <div class="d-block px-4 mb-4">
+                        <div class="d-flex">
+                            <a href="/details.html">
+                                <img src="images/p3.webp" alt="" style="width:100px">
+                            </a>
+                            <p class="post-title flex-row">
+                                <a href="/details.html">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Aut dignissimos deserun</a>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="d-block px-4 mb-4">
+                        <div class="d-flex">
+                            <a href="/details.html">
+                                <img src="images/n4.webp" alt="" style="width:100px">
+                            </a>
+                            <p class="post-title flex-row">
+                                <a href="/details.html">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Aut dignissimos deserun</a>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="d-block px-4 mb-4">
+                        <div class="d-flex">
+                            <a href="/details.html">
+                                <img src="images/n4.webp" alt="" style="width:100px">
+                            </a>
+                            <p class="post-title flex-row">
+                                <a href="/details.html">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Aut dignissimos deserun</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+                    <!--footer section-->
+                    <footer class="bg-light mt-5 border p-4">
+                        <div class="row">
+                            <!-- NEWS IMAGE -->
+                            <div class="col-lg-4 col-md-6 col-sm-10 sm-bottom">
+                                <div class="d-flex footer-img">
+                                    <a href="" class="m-1">
+                                        <img src="images/cat1.jpg" alt="" class="img-fluid mb-3">
+                                    </a>
+                                    <a href="" class="m-1">
+                                        <img src="images/cat2.jpg" alt="" class="img-fluid mb-3">
+                                    </a>
+                                </div>
+                                <div class="d-flex footer-img">
+                                    <a href="" class="m-1">
+                                        <img src="images/cat5.jpg" alt="" class="img-fluid mb-3">
+                                    </a>
+                                    <a href="" class="m-1">
+                                        <img src="images/cat4.webp" alt="" class="img-fluid mb-3">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- CATEGORY -->
+                            <div class="col-lg-4 col-md-6 col-sm-10 sm-bottom">
+                                <div class="px-3">
+                                    <h4 class="text-muted" style="font-weight:400;text-transform: uppercase">categore</h4>
+                                    <div class="footer-category-list">
+                                        <a href="/details.html"><span class="badge bg-primary">Sports</span></a>
+                                        <a href="/details.html"><span class="badge bg-primary">Business</span></a>
+                                        <a href="/details.html"><span class="badge bg-primary">Social</span></a>
+                                        <a href="/details.html"><span class="badge bg-primary">Education</span></a>
+                                        <a href="/details.html"><span class="badge bg-primary">Result</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--NEWS ABOUT SECTION-->
+                            <div class="col-lg-4 col-md-12 col-sm-10 sm-bottom">
+                                <h4 class="text-muted" style="font-weight:400;text-transform: uppercase">random mag</h4>
+                                <div class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quam voluptatum vel
+                                    repellat ab
+                                    similique molestias molestiae ea omnis eos, id asperiores est praesentium, voluptate officia
+                                    nulla
+                                    aspernatur sequi aliquam.
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+        
+                    <div class="cpy-right p-1" style="width: 100%">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span>Copyright © 2023 <a href="https://www.masudrana.xyz" class="text-danger">Masud Rana</a></span>
+                        </div>
+                    </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#search-button").click(function () {
+                $("#search-input").animate({ width: '300px' }, 300);
+            });
+        });
+    </script>
+</body>
+
+</html>
